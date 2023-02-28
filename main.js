@@ -21,7 +21,7 @@ document.querySelector(".bars__menu").addEventListener("click", abrirMenu);
 function abrirMenu() {
   if (window.innerWidth < 600) {
     nav.style.right = "0px";
-    nav.style.backgroundColor = "white";
+    nav.style.backgroundColor = "#f5f8fb";
     backMenu.style.display = "block";
     logo.style.color = "transparent";
     menuEnlaces.style.color = "black";
@@ -34,7 +34,7 @@ cruz.addEventListener("click", cerrarMenu);
 
 function cerrarMenu() {
   if (window.innerWidth < 600) {
-    nav.style.right = "-80%";
+    nav.style.right = "-100%";
     backMenu.style.display = "none";
     logo.style.color = "white";
   }

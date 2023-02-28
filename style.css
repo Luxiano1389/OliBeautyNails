@@ -617,9 +617,9 @@ body {
     #menu {
         position: fixed;
         background-color: white;
-        width: 80%;
+        width: 100%;
         height: 100vh;
-        right: -80%;
+        right: -100%;
         top: 0;
         overflow: hidden;
         transition: right .5s ease-in-out;
@@ -642,14 +642,13 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 20px;
-        width: auto;
     }
 
     .menu-logo {
         display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
         margin-top: 20px;
-        margin-left: 20px;
         font-size: 25px;
         font-family: var(--fuente-logo);
         color: white;
@@ -657,41 +656,36 @@ body {
 
     .menu-logo1 {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         color: black;
         font-family: var(--fuente-logo);
         font-size: 25px;
+        padding: 0 20px;
+        width: 100%;
     }
 
-    .menu-logo1>img {
+    .menu-cruz {
         width: 20px;
         height: 20px;
-        margin-top: 0px;
-        display: block;
-    }
-
-    .menu-logo1>p {
-        padding-right: 30px;
+        display: inline-block;
     }
 
     .menu-enlaces {
         color: black;
         margin-top: 30px;
+        padding: 5px;
         display: flex;
         flex-direction: column;
     }
 
     .bars__menu {
+        position: relative;
         display: block;
-        top: 23px;
-        right: 20px;
-        width: 30px;
-        height: 20px;
     }
 
     .menu-enlaces>a {
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
 
@@ -732,7 +726,7 @@ body {
     }
 
     .main1-servicios>a {
-        font-size: 20px;
+        font-size: 16px;
         padding: 25px 70px;
         letter-spacing: .0313em;
         width: 100%;
@@ -741,6 +735,7 @@ body {
 
     .main2 {
         margin-top: 40px;
+        padding-bottom: 50px;
     }
 
     .main2>h2 {
@@ -960,7 +955,7 @@ body {
     }
 
     .footer {
-        height: 45vh;
+        height: 50vh;
     }
 
     .footer-flex {
@@ -977,6 +972,7 @@ body {
 
     .footer-flex--redes {
         padding-right: 0;
+        padding-bottom: 20px;
     }
 
     .footer-flex--redes>a {
@@ -1010,9 +1006,9 @@ body {
     #menu {
         position: fixed;
         background-color: white;
-        width: 80%;
+        width: 100%;
         height: 100vh;
-        right: -80%;
+        right: -100%;
         top: 0;
         overflow: hidden;
         transition: right .5s ease-in-out;
@@ -1035,14 +1031,13 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 20px;
-        width: auto;
     }
 
     .menu-logo {
         display: flex;
+        justify-content: space-between;
         margin-top: 20px;
-        margin-left: 20px;
+        padding: 0 15px;
         font-size: 30px;
         font-family: var(--fuente-logo);
         color: white;
@@ -1050,26 +1045,25 @@ body {
 
     .menu-logo1 {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
         color: black;
         font-size: 28px;
         font-family: var(--fuente-logo);
+        padding: 0 20px;
+        width: 100%;
     }
 
-    .menu-logo1>img {
+    .menu-cruz {
         width: 20px;
         height: 20px;
-        margin-top: 8px;
-        display: block;
-    }
-
-    .menu-logo1>p {
-        padding-right: 55px;
+        display: inline-block;
     }
 
     .menu-enlaces {
         color: black;
         margin-top: 30px;
+        padding: 5px;
         display: flex;
         flex-direction: column;
     }
@@ -1122,7 +1116,7 @@ body {
     }
 
     .main1-servicios>a {
-        font-size: 20px;
+        font-size: 16px;
         padding: 25px 70px;
         letter-spacing: .0313em;
         width: 100%;
@@ -1131,6 +1125,7 @@ body {
 
     .main2 {
         margin-top: 40px;
+        padding-bottom: 50px;
     }
 
     .main2>h2 {
@@ -1350,7 +1345,7 @@ body {
     }
 
     .footer {
-        height: 45vh;
+        height: 50vh;
     }
 
     .footer-flex {
@@ -1367,6 +1362,7 @@ body {
 
     .footer-flex--redes {
         padding-right: 0;
+        padding-bottom: 20px;
     }
 
     .footer-flex--redes>a {
